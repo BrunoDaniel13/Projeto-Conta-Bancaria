@@ -85,7 +85,7 @@ public class Menu {
 					case 2 -> {
 						System.out.println("Digite o dia do aniversário da conta: ");
 						aniversario=leia.nextInt();
-						contas.cadastrar(new ContaCorrente(contas.gerarNumero(), agencia, tipo, titular, saldo, aniversario));
+						contas.cadastrar(new ContaPoupanca(contas.gerarNumero(), agencia, tipo, titular, saldo, aniversario));
 					}
 					}					
 							keyPress();
